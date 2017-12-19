@@ -359,7 +359,7 @@ main = do
       , manageHook = manageDocks <+> myManageHook
       , startupHook = do
           setWMName "LG3D"
-          spawn "feh --randomize --bg-scale ~/.wallpapers/*"
+          spawn "feh --randomize --bg-scale /home/jennndol/Pictures/Wallpapers/*"
   }
 
 
